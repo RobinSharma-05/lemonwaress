@@ -69,7 +69,7 @@ function Section1() {
     <>
       <div
         id="section1"
-        className="max-w-[1300px] w-full min-w-[1200px]:pl-5 pl-3 pr-3 mx-auto overflow-hidden mb-12"
+        className="max-w-[1300px] w-full min-w-[1200px]:pl-5 pl-3 pr-3 mx-auto overflow-hidden mb-8 sm:mb-12"
       >
         <div className="flex w-full flex-wrap">
           <div
@@ -78,7 +78,7 @@ function Section1() {
             data-aos-once="true"
             data-aos-duration="1000"
           >
-            <h2 className="max-w-[594px] text-[#18191F] font-inter text-center xl:text-start text-[30px] sm:text-[48px] not-italic font-extrabold leading-[64px]">
+            <h2 className="max-w-[594px] text-[#18191F] font-inter text-center xl:text-start text-[30px] sm:text-[48px] not-italic font-extrabold leading-[48px] sm:leading-[64px]">
               True Cloud Web Hosting
             </h2>
             <p className="max-w-[573px] text-[#18191F] font-inter text-lg not-italic font-normal leading-[32px] mt-6 text-center xl:text-start">

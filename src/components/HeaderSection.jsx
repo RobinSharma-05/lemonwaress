@@ -253,10 +253,10 @@ function Header() {
                           {tabs.para}
                         </p>
                         <div className="flex gap-6 flex-wrap justify-center">
-                          <button className="border border-solid border-black rounded-[8px] w-[160px] h-[48px] justify-center items-center flex font-poppins text-[14px] not-italic font-normal leading-[24px] text-white duration-300 bg-[#B00000] border-transparent shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)] hover:shadow-none hover:bg-[rgba(176,0,0,0.8)]">
+                          <button className="border border-solid border-black rounded-[8px] w-[130px] sm:w-[160px] h-[48px] justify-center items-center flex font-poppins text-[12px] sm:text-[14px] not-italic font-normal leading-[24px] text-white duration-300 bg-[#B00000] border-transparent shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)] hover:shadow-none hover:bg-[rgba(176,0,0,0.8)]">
                             Create an Account
                           </button>
-                          <button className="border border-solid border-black rounded-[8px] w-[160px] h-[48px] justify-center items-center flex text-black font-poppins text-[14px] not-italic font-normal leading-[24px] hover:text-white duration-300 bg-white hover:bg-black hover:border-transparent">
+                          <button className="border border-solid border-black rounded-[8px] w-[130px] sm:w-[160px] h-[48px] justify-center items-center flex text-black font-poppins text-[12px] sm:text-[14px] not-italic font-normal leading-[24px] hover:text-white duration-300 bg-white hover:bg-black hover:border-transparent">
                             Choose your plan
                           </button>
                         </div>

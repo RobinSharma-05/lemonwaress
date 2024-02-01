@@ -133,7 +133,7 @@ function Section2() {
         data-aos-duration="1000"
       >
         <div className="max-w-[1120px] mx-auto px-3 flex flex-col items-center overflow-hidden">
-          <h2 className="max-w-[650px] text-black text-center font-poppins text-[35px] sm:text-[50px] not-italic font-semibold sm:leading-[60px] mb-6 sm:mb-[38px]">
+          <h2 className="max-w-[650px] text-black text-center font-poppins text-[35px] sm:text-[50px] not-italic font-semibold leading-[50px] sm:leading-[60px] mb-6 sm:mb-[38px]">
             Ready to get started with Lemon Wares?
           </h2>
           <p className="text-black text-center font-poppins text-[20px] sm:text-[25px] not-italic font-normal leading-[25px] mb-6 sm:mb-[57px]">
@@ -149,7 +149,9 @@ function Section2() {
             >
               <span
                 className={`block w-[15px] sm:w-[30px] h-[15px] sm:h-[30px] duration-500 rounded-[50%] absolute ${
-                  year == false ? "bg-white left-[9%]" : "bg-black left-[65%] sm:left-[58%]"
+                  year == false
+                    ? "bg-white left-[9%]"
+                    : "bg-black left-[65%] sm:left-[58%]"
                 }`}
               ></span>
             </span>
